@@ -1,0 +1,23 @@
+# configs/barebones.yaml
+
+# Dataset
+root_dir: "D:/repos/refactored_MDM/GigaHands_Data/coverted_motions/hand_poses_xyz"
+annotation_file: "D:/repos/refactored_MDM/GigaHands_Data/annotations_v2.jsonl"
+mean_std_dir: "D:/repos/refactored_MDM/GigaHands_Data/coverted_motions/norm_stats"
+side: "both"
+frames: 196
+rescale_to_unit: 3.0
+
+# Training
+batch_size: 8
+lr: 0.0001
+epochs: 10
+save_dir: "save/barebones"
+save_interval: 5000
+
+# Diffusion
+timesteps: 1000
+cond_channels: 8
+
+# Device
+device: "cuda"
