@@ -7,6 +7,8 @@ mean_std_dir: "D:/repos/refactored_MDM/GigaHands_Data/coverted_motions/norm_stat
 side: "both"
 frames: 196
 rescale_to_unit: 3.0
+dmvb: 126
+
 
 # Training
 batch_size: 8

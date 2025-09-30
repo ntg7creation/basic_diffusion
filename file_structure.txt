@@ -1,0 +1,14 @@
+.
+├── README.md
+├── configs/
+│   └── barebones.yaml
+├── diffusion/
+│   └── ddpm.py
+├── file_structure.txt
+├── infer_barebones.py
+├── list_structure.py
+├── models/
+│   └── transformer_cond.py
+├── train/
+│   └── training_loop.py
+└── train_barebones_diffusion.py
